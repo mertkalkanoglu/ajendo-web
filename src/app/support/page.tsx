@@ -21,10 +21,10 @@ export default function SupportPage() {
             geri döneriz.
           </p>
           <a
-            href="mailto:destek@ajendo.app"
+            href="mailto:support@ajendo.app"
             className="inline-flex items-center gap-2 bg-[#2563EB] text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
           >
-            destek@ajendo.app
+            support@ajendo.app
           </a>
         </div>
 

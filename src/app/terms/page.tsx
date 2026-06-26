@@ -82,10 +82,10 @@ export default function TermsPage() {
             <p>
               Sorularınız için:{" "}
               <a
-                href="mailto:destek@ajendo.app"
+                href="mailto:support@ajendo.app"
                 className="text-[#2563EB] hover:underline"
               >
-                destek@ajendo.app
+                support@ajendo.app
               </a>
             </p>
           </section>

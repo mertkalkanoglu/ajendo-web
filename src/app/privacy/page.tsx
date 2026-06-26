@@ -90,10 +90,10 @@ export default function PrivacyPage() {
               </a>{" "}
               ziyaret edin veya{" "}
               <a
-                href="mailto:destek@ajendo.app"
+                href="mailto:support@ajendo.app"
                 className="text-[#2563EB] hover:underline"
               >
-                destek@ajendo.app
+                support@ajendo.app
               </a>{" "}
               adresine e-posta gönderin.
             </p>
@@ -104,10 +104,10 @@ export default function PrivacyPage() {
             <p>
               Gizlilik politikamızla ilgili sorularınız için:{" "}
               <a
-                href="mailto:destek@ajendo.app"
+                href="mailto:support@ajendo.app"
                 className="text-[#2563EB] hover:underline"
               >
-                destek@ajendo.app
+                support@ajendo.app
               </a>
             </p>
           </section>

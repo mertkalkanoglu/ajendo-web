@@ -25,7 +25,7 @@ export default function DeleteAccountPage() {
             <li><strong>Hesap</strong> bölümünde <strong>Çıkış Yap</strong> seçeneğini bulun.</li>
             <li>
               Hesabınızı ve verilerinizi silmek için{" "}
-              <strong>destek@ajendo.app</strong> adresine e-posta gönderin.
+              <strong>support@ajendo.app</strong> adresine e-posta gönderin.
             </li>
           </ol>
         </div>
@@ -41,7 +41,7 @@ export default function DeleteAccountPage() {
             eklemeniz yeterlidir.
           </p>
           <a
-            href="mailto:destek@ajendo.app?subject=Hesabımı Sil&body=Merhaba, hesabımı ve tüm verilerimi kalıcı olarak silmek istiyorum. Kayıtlı e-posta adresim: "
+            href="mailto:support@ajendo.app?subject=Hesabımı Sil&body=Merhaba, hesabımı ve tüm verilerimi kalıcı olarak silmek istiyorum. Kayıtlı e-posta adresim: "
             className="inline-flex items-center gap-2 bg-[#2563EB] text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
           >
             E-posta Gönder
