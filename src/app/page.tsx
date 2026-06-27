@@ -1,28 +1,33 @@
-import { Scissors, Stethoscope, Wrench, ArrowRight, Check } from "lucide-react";
+import { Wrench, Stethoscope, Users, ArrowRight, Check } from "lucide-react";
 import { PhoneMockup } from "@/components/ui/phone-mockup";
 
 const FEATURES = [
-  {
-    Icon: Scissors,
-    iconBg: "bg-blue-50",
-    iconColor: "text-[#2563EB]",
-    title: "Kuaförler & Güzellik",
-    desc: "Personel bazlı takvim, müşteri geçmişi ve günlük program tek ekranda.",
-  },
-  {
-    Icon: Stethoscope,
-    iconBg: "bg-teal-50",
-    iconColor: "text-[#0D9488]",
-    title: "Klinikler & Terapistler",
-    desc: "Seans yönetimi, özel notlar ve çalışma saati konfigürasyonu.",
-  },
   {
     Icon: Wrench,
     iconBg: "bg-slate-100",
     iconColor: "text-slate-600",
     title: "Servis & Atölyeler",
-    desc: "Ekipman ve kaynak bazlı randevu takibi, kapasite yönetimi.",
+    desc: "Oto servis, moto servis, lastikçi, detailing — kaynak ve ekipman bazlı randevu takibi.",
   },
+  {
+    Icon: Stethoscope,
+    iconBg: "bg-teal-50",
+    iconColor: "text-[#0D9488]",
+    title: "Sağlık & Klinik",
+    desc: "Veteriner, fizyoterapist, klinik — seans yönetimi, özel notlar, çalışma saati konfigürasyonu.",
+  },
+  {
+    Icon: Users,
+    iconBg: "bg-blue-50",
+    iconColor: "text-[#2563EB]",
+    title: "Danışmanlık & Eğitim",
+    desc: "Danışman, eğitmen, güzellik uzmanı — müşteri geçmişi ve günlük program tek ekranda.",
+  },
+];
+
+const SECTORS = [
+  "Oto Servis", "Moto Servis", "Lastikçi", "Detailing",
+  "Veteriner", "Fizyoterapist", "Danışman", "Eğitmen", "Güzellik Salonu",
 ];
 
 const BULLETS = [
@@ -146,6 +151,21 @@ export default function Home() {
                 <p className="text-sm text-slate-500 leading-relaxed">{desc}</p>
               </div>
             ))}
+          </div>
+
+          {/* Sector tags */}
+          <div className="mt-10 flex flex-wrap justify-center gap-2.5">
+            {SECTORS.map((s) => (
+              <span
+                key={s}
+                className="text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-full px-4 py-1.5"
+              >
+                {s}
+              </span>
+            ))}
+            <span className="text-sm font-medium text-[#2563EB] bg-blue-50 border border-blue-100 rounded-full px-4 py-1.5">
+              ve daha fazlası →
+            </span>
           </div>
         </div>
       </section>
