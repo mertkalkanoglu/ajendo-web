@@ -7,7 +7,7 @@ const FEATURES = [
     iconBg: "bg-slate-100",
     iconColor: "text-slate-600",
     title: "Servis & Atölyeler",
-    desc: "Oto servis, moto servis, lastikçi, detailing — kaynak ve ekipman bazlı randevu takibi.",
+    desc: "Otomobil servisi, motosiklet servisi, lastikçi, detailing — kaynak ve ekipman bazlı randevu takibi.",
   },
   {
     Icon: Stethoscope,
@@ -26,7 +26,7 @@ const FEATURES = [
 ];
 
 const SECTORS = [
-  "Oto Servis", "Moto Servis", "Lastikçi", "Detailing",
+  "Otomobil Servisi", "Motosiklet Servisi", "Lastikçi", "Detailing",
   "Veteriner", "Fizyoterapist", "Danışman", "Eğitmen", "Güzellik Salonu",
 ];
 
