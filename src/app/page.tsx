@@ -7,21 +7,21 @@ const FEATURES = [
     iconBg: "bg-slate-100",
     iconColor: "text-slate-600",
     title: "Servis & Atölyeler",
-    desc: "Otomobil servisi, motosiklet servisi, lastikçi, detailing — kaynak ve ekipman bazlı randevu takibi.",
+    desc: "Otomobil ve motosiklet servislerinden lastikçilere, detailing stüdyolarından teknik atölyelere kadar tüm operasyonunuzu tek ekrandan yönetin.",
   },
   {
     Icon: Stethoscope,
     iconBg: "bg-teal-50",
     iconColor: "text-[#0D9488]",
     title: "Sağlık & Klinik",
-    desc: "Veteriner, fizyoterapist, klinik — seans yönetimi, özel notlar, çalışma saati konfigürasyonu.",
+    desc: "Veteriner klinikleri, fizyoterapistler ve diğer sağlık profesyonelleri için randevu planlaması, hasta notları ve çalışma takvimi tek uygulamada.",
   },
   {
     Icon: Users,
     iconBg: "bg-blue-50",
     iconColor: "text-[#2563EB]",
     title: "Danışmanlık & Eğitim",
-    desc: "Danışman, eğitmen, güzellik uzmanı — müşteri geçmişi ve günlük program tek ekranda.",
+    desc: "Danışmanlar, eğitmenler ve birebir hizmet veren profesyoneller için müşteri geçmişi, seans planlaması ve günlük program tek yerde.",
   },
 ];
 
@@ -31,10 +31,10 @@ const SECTORS = [
 ];
 
 const BULLETS = [
-  "Randevu oluştur, düzenle, takip et",
-  "Müşteri geçmişi ve notları",
-  "Personel & kaynak yönetimi",
-  "Günlük ve haftalık raporlar",
+  "Randevu oluşturun, düzenleyin ve takip edin",
+  "Müşteri geçmişi ve notlarına saniyeler içinde ulaşın",
+  "Personel, oda ve ekipman planlamasını kolayca yönetin",
+  "Günlük, haftalık ve aylık performansı raporlayın",
 ];
 
 export default function Home() {
@@ -70,20 +70,20 @@ export default function Home() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-blue-50 text-[#2563EB] text-xs font-semibold px-3 py-1.5 rounded-full mb-7 border border-blue-100">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#34D399] shrink-0" />
-                Yakında iOS'ta
+                Yakında iOS&apos;ta
               </div>
 
               {/* Headline */}
               <h1 className="text-[2.75rem] sm:text-5xl lg:text-[3.25rem] font-bold text-[#0F172A] leading-[1.1] tracking-tight mb-5">
                 Randevu yönetimini{" "}
-                <span className="text-gradient">profesyonele taşıyın.</span>
+                <span className="text-gradient">profesyonelleştirin.</span>
               </h1>
 
               {/* Sub */}
               <p className="text-lg text-slate-500 leading-relaxed mb-8 max-w-[460px] mx-auto lg:mx-0">
-                Ajendo, randevu tabanlı işletmeler için geliştirilmiş mobil yönetim
-                uygulamasıdır. Randevular, müşteriler, personel ve raporlar — hepsi
-                tek platformda.
+                Ajendo, randevuyla çalışan işletmeler için geliştirilen modern yönetim
+                uygulaması. Randevularınızı planlayın, müşteri bilgilerini tek yerde
+                yönetin, ekibinizi organize edin ve işletmenizin kontrolünü elinizde tutun.
               </p>
 
               {/* Bullet list */}
@@ -132,10 +132,11 @@ export default function Home() {
             Sektörler
           </p>
           <h2 className="text-3xl font-bold text-[#0F172A] tracking-tight text-center mb-3">
-            Her randevu bazlı işletme için
+            Randevuyla çalışan her işletme için tasarlandı.
           </h2>
           <p className="text-slate-500 text-center mb-12 max-w-lg mx-auto">
-            Sektörden bağımsız tasarım. Hangi alanda çalışırsanız çalışın Ajendo sizin için çalışır.
+            İşiniz ne olursa olsun, Ajendo çalışma şeklinize uyum sağlar. Hizmetlerinizi,
+            çalışma saatlerinizi ve ekibinizi kendi ihtiyaçlarınıza göre özelleştirebilirsiniz.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-5">
@@ -188,17 +189,17 @@ export default function Home() {
         <div className="relative mx-auto max-w-3xl px-6 py-24 lg:py-32 text-center">
           <div className="inline-flex items-center gap-2 bg-white/8 text-white/70 text-xs font-semibold px-4 py-2 rounded-full mb-8 border border-white/10">
             <span className="w-1.5 h-1.5 rounded-full bg-[#34D399]" />
-            Beta kullanıcıları için erken erişim açık
+            Erken erişim başvuruları alınıyor
           </div>
 
           <h2 className="text-4xl lg:text-5xl font-bold text-white tracking-tight leading-[1.1] mb-5">
-            İlk duyuranlar arasında{" "}
-            <span className="text-gradient">yer alın.</span>
+            Ajendo&apos;yu ilk{" "}
+            <span className="text-gradient">deneyenlerden biri olun.</span>
           </h2>
 
           <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-            Ajendo hazır olduğunda sizi haberdar edeceğiz. Beta kullanıcılarına
-            özel avantajlar ve öncelikli destek sunulacak.
+            Erken erişime katılın. Uygulama yayına açıldığında sizi öncelikli olarak
+            bilgilendirelim; beta kullanıcılarına özel avantajlardan siz de faydalanın.
           </p>
 
           <a
@@ -210,7 +211,7 @@ export default function Home() {
           </a>
 
           <p className="text-slate-600 text-sm mt-5">
-            support@ajendo.app · Spam yok. İstediğinizde çıkabilirsiniz.
+            Spam göndermiyoruz. İstediğiniz zaman tek tıkla ayrılabilirsiniz.
           </p>
         </div>
       </section>
